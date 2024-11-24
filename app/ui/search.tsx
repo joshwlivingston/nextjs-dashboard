@@ -1,7 +1,7 @@
 'use client';
 
 import { useDebouncedCallback } from 'use-debounce';
-import { FingerPrintIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 export default function Search({ placeholder }: { placeholder: string }) {
